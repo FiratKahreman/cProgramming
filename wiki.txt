@@ -1,0 +1,25 @@
+Sanal Süper Lig takımlarının lig fikstürünün hesaplamasını yapan bir program istenmektedir. Problemin tanımı ve istenen özellikler aşağıda listelenmiştir.
+
+Ligde 10 takım bulunmaktadır. Bu sayı gerekirse değiştirilebilmelidir.
+Galibiyet için 2 puan, beraberlik için 1 puan ve mağlubiyet için -1 puan kazanılır. Gerekirse bu değerler değiştirilebilmelidir.
+Her takımın tek bir karakterden oluşan takma isim ve en fazla 12 karakterden oluşan takım uzun ismi bulunmaktadır. Takımların takma isimleri ‘A’, ‘B’, ‘C’, ‘D’, ‘E’, ‘F’, ‘G’, ‘H’, ‘I’, ‘J’ şeklinde olmalıdır. Takımların uzun isimleri “takmlar.txt” dosyasından okunmalıdır. Bu dosya savunma sırasında verilecektir.
+Başlangıçta tüm takımların oynadığı maç sayısı ve puanları gibi özellikler 0 olarak alınmalıdır.
+Program oynanan maçları klavyeden veya dosyadan giriş olarak alıp puan durumu tablosunu güncellemek amacıyla geliştirilmelidir.
+Klavyeden maç giriş yapıldığında “A 3 C 2” şeklinde olmalıdır. Bunun anlamı A takımı le C takımı maç yapmış, ev sahibi takım A takımı 3 gol atmış ve misafir takım C se 2 gol atmıştır.
+Dosyadan giriş yapıldığında se her bir satır klavyeden yapılan giriş formatında olacaktır. Yan dosyada birden çok maç sonucu olabilir, bu sonuçlar puan durumu tablosuna işlenmelidir.
+Oynanan maç bir kez daha giriş olarak verildiğinde ekrana uyarı verilmeli ve bu maç puan durumu tablosuna işlenmemelidir. A ve C takımı A takımının evinde sadece bir kez maç oynamalıdır.
+Puan durumu tablosu ekrana veya dosyaya puan sırasına göre, takımların alfabetik sırasına göre ya da takma isim sırasına göre yazılabilmelidir. İstendiğinde takım isimler büyük harf olarak yazılabilmelidir.
+Ligdeki takım sayısı, galibiyette mağlubiyette ve beraberlikte alınacak puan sayısı "ayarlar.txt" dosyasından okunmalıdır. Bu dosya savunma sırasında verilecektir.
+Puan durumu tablosunda olması gereken özellikler şunlardır:
+Takma isim - A, B, C...
+Takım Uzun ismi (12 karakter)
+Oynadığı maç sayısı
+Galibiyet sayısı
+Beraberlik sayısı
+Mağlubiyet sayısı
+Attığı gol sayısı
+Yediği gol sayısı
+Averaj
+Puan Kodlama için İstenenler
+Kaynak kodlar yazılırken main fonksiyonu içerisinde sadece fonksiyon çağrısı kodları olmalı, diğer tüm işlemler fonksiyonlar le halledilmeldr. Kod yazılırken mümkün olduğunca kod tekrarından kaçınılmalıdır.
+Takımlar "struct" yapısı tanımlanarak saklanmalıdır.
